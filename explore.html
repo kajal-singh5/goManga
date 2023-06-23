@@ -1,0 +1,429 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoManga - Explore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500&family=Poppins:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid header-img" src="./icons/gomanga.svg" alt="Brand Logo">
+                    </a>
+                    <button class="navbar-toggler bg-transparent border border-0" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title h5" id="offcanvasNavbarLabel">
+                                <img class="img-fluid h-75" src="./icons/gomanga.svg" alt="Brand Logo">
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item pb-1">
+                                    <a class="nav-link text-uppercase" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item pb-1">
+                                    <a class="nav-link active text-uppercase" href="#">Explore</a>
+                                </li>
+                                <li class="nav-item pb-1">
+                                    <a class="nav-link text-uppercase" href="#">Forum</a>
+                                </li>
+                                <li class="nav-item pb-1">
+                                    <a class="nav-link text-uppercase" href="#">User</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex flex-column flex-lg-row mt-3 mt-lg-0" role="search">
+                                <input class="form-control mb-3 mb-lg-0 me-lg-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success" style="border-color: rgb(254, 127, 127);"
+                                    type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <section id="coming-soon">
+                    <div class="d-flex flex-column flex-sm-row mb-5">
+                        <div class="container-fluid mb-3">
+                            <img src="./assets/explore/coming-soon/immortality-in-death.png"
+                                alt="Immortality in Death's thumbnail" class="img-fluid object-fit-cover h-100">
+                        </div>
+                        <div class="container d-flex flex-column justify-content-center">
+                            <p class="mb-3">
+                                <small>Coming soon...</small>
+                            </p>
+                            <h1 class="display-4 text-capitalize mb-3">
+                                Immortability in Death
+                            </h1>
+                            <p class="fw-normal text-capitalize mb-3">
+                                <span class="me-auto">Island Project</span>
+                                <span class="badge bg-body-tertiary fs-6 text-body-tertiary">Horror</span>
+                                <span class="badge bg-body-tertiary fs-6 text-body-tertiary">Mystery</span>
+                            </p>
+                            <p class="mb-2">
+                                "When I was 10, my grandparents brutally killed my mother. I lost my mother but on the
+                                seventh day of her death, miraculously her corpse disappeared and a living ghost
+                                appeared instead" Follow this girl as she goes on a bone-chilling journey to take
+                                revenge and find peace for her mother.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="popular">
+                    <div class="container mb-5">
+                        <div class="header d-flex flex-row pb-2">
+                            <h3 class="h3 me-auto">Popular</h3>
+                            <div class="nav nav-underline">
+                                <a href="" class="nav-link active fs-6">
+                                    View all
+                                </a>
+                                <span class="vr"></span>
+                                <a href="" class="nav-link fs-6">
+                                    Filter genres
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="p-card col-12 col-lg-6">
+                                <div class="p-card-img shadow mb-3 h-75">
+                                    <img src="./assets/explore/popular/legend-of-the-northern-blade.jpg"
+                                        alt="Legend of the legend-of-the-northern-blade"
+                                        class="img-fluid object-fit-cover mh-100 w-100">
+                                </div>
+                                <div class="p-card-body d-flex flex-column align-items-center h-25">
+                                    <a href="" class="prod-link pb-1">
+                                        + Add to list
+                                    </a>
+                                    <a href="" class="prod-link py-1">
+                                        <h5 class="h5 text-capitalize text-center">
+                                            The legend of the northern blade
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-card col-6 col-sm-4 col-lg-2">
+                                <div class="p-card-img shadow mb-3 h-75">
+                                    <img src="./assets/explore/popular/demon-apartment.jpg" alt="Demon apartment"
+                                        class="img-fluid object-fit-cover h-100 w-100">
+                                </div>
+                                <div class="p-card-body d-flex flex-column align-items-center h-25">
+                                    <a href="" class="prod-link pb-1">
+                                        + Add to list
+                                    </a>
+                                    <a href="" class="prod-link py-1">
+                                        <h5 class="h5 text-capitalize text-center">
+                                            Demon apartment
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-card col-6 col-sm-4 col-lg-2">
+                                <div class="p-card-img shadow mb-3 h-75">
+                                    <img src="./assets/explore/popular/target-100-million-points!-the-ultimate-game-to-start-a-2nd-life.jpg"
+                                        alt="Target 100 million points" class="img-fluid object-fit-cover h-100 w-100">
+                                </div>
+                                <div class="p-card-body d-flex flex-column align-items-center h-25">
+                                    <a href="" class="prod-link pb-1">
+                                        + Add to list
+                                    </a>
+                                    <a href="" class="prod-link py-1">
+                                        <h5 class="h5 text-capitalize text-center">
+                                            Target 100 miliion points !
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-card col-6 col-sm-4 col-lg-2">
+                                <div class="p-card-img shadow mb-3 h-75">
+                                    <img src="./assets/explore/ranking/absolute-resonance.jpg" alt="absolute-resonance"
+                                        class="img-fluid object-fit-cover h-100 w-100">
+                                </div>
+                                <div class="p-card-body d-flex flex-column align-items-center h-25">
+                                    <a href="" class="prod-link pb-1">
+                                        + Add to list
+                                    </a>
+                                    <a href="" class="prod-link py-1">
+                                        <h5 class="h5 text-capitalize text-center">
+                                            Absolute resonance
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-card col-6 d-sm-none">
+                                <div class="p-card-img shadow mb-3 h-75">
+                                    <img src="./assets/explore/schedule/song-of-the-sky-pacers.png"
+                                        alt="Song of the Pacers" class="img-fluid object-fit-cover h-100 w-100"
+                                        style="object-position: top;">
+                                </div>
+                                <div class="p-card-body d-flex flex-column align-items-center h-25">
+                                    <a href="" class="prod-link pb-1">
+                                        + Add to list
+                                    </a>
+                                    <a href="" class="prod-link py-1">
+                                        <h5 class="h5 text-capitalize text-center">
+                                            Song of the pacers
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="ranking">
+                    <div class="header d-flex flex-row pb-3">
+                        <h3 class="h3 me-auto">Ranking</h3>
+                        <div class="nav nav-underline">
+                            <a href="" class="nav-link active fs-6">
+                                All
+                            </a>
+                            <span class="vr"></span>
+                            <a href="" class="nav-link fs-6">
+                                Filter
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ranking-listing">
+                        <div class="row g-3">
+                            <div class="ranking-card col-12 col-md-6 col-lg-4">
+                                <div class="row">
+                                    <div class="col-1 p-2">
+                                        <h6 class="h6">1</h6>
+                                    </div>
+                                    <div class="col-5 p-2">
+                                        <h6 class="h6 text-capitalize">I took over the demonic ancestor
+                                        </h6>
+                                        <p class="fs-7">
+                                            229342 views
+                                        </p>
+                                    </div>
+                                    <div class="new-img col-6 ps-0">
+                                        <img src="./assets/homepage/new-series/i-took-over-the-demonic-ancestor.jpg"
+                                            alt="I took over the demonic ancestor poster"
+                                            class="img-fluid object-fit-cover mh-100 w-100"
+                                            style="object-position: center;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ranking-card col-12 col-md-6 col-lg-4">
+                                <div class="row">
+                                    <div class="col-1 p-2">
+                                        <h6 class="h6">1</h6>
+                                    </div>
+                                    <div class="col-5 p-2">
+                                        <h6 class="h6 text-capitalize">I took over the demonic ancestor
+                                        </h6>
+                                        <p class="fs-7">
+                                            229342 views
+                                        </p>
+                                    </div>
+                                    <div class="new-img col-6 ps-0">
+                                        <img src="./assets/homepage/new-series/i-took-over-the-demonic-ancestor.jpg"
+                                            alt="I took over the demonic ancestor poster"
+                                            class="img-fluid object-fit-cover mh-100 w-100"
+                                            style="object-position: center;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ranking-card col-12 col-md-6 col-lg-4">
+                                <div class="row">
+                                    <div class="col-1 p-2">
+                                        <h6 class="h6">1</h6>
+                                    </div>
+                                    <div class="col-5 p-2">
+                                        <h6 class="h6 text-capitalize">I took over the demonic ancestor
+                                        </h6>
+                                        <p class="fs-7">
+                                            229342 views
+                                        </p>
+                                    </div>
+                                    <div class="new-img col-6 ps-0">
+                                        <img src="./assets/homepage/new-series/i-took-over-the-demonic-ancestor.jpg"
+                                            alt="I took over the demonic ancestor poster"
+                                            class="img-fluid object-fit-cover mh-100 w-100"
+                                            style="object-position: center;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ranking-card col-12 col-md-6 col-lg-4">
+                                <div class="row">
+                                    <div class="col-1 p-2">
+                                        <h6 class="h6">1</h6>
+                                    </div>
+                                    <div class="col-5 p-2">
+                                        <h6 class="h6 text-capitalize">I took over the demonic ancestor
+                                        </h6>
+                                        <p class="fs-7">
+                                            229342 views
+                                        </p>
+                                    </div>
+                                    <div class="new-img col-6 ps-0">
+                                        <img src="./assets/homepage/new-series/i-took-over-the-demonic-ancestor.jpg"
+                                            alt="I took over the demonic ancestor poster"
+                                            class="img-fluid object-fit-cover mh-100 w-100"
+                                            style="object-position: center;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ranking-card col-12 col-md-6 col-lg-4">
+                                <div class="row">
+                                    <div class="col-1 p-2">
+                                        <h6 class="h6">1</h6>
+                                    </div>
+                                    <div class="col-5 p-2">
+                                        <h6 class="h6 text-capitalize">I took over the demonic ancestor
+                                        </h6>
+                                        <p class="fs-7">
+                                            229342 views
+                                        </p>
+                                    </div>
+                                    <div class="new-img col-6 ps-0">
+                                        <img src="./assets/homepage/new-series/i-took-over-the-demonic-ancestor.jpg"
+                                            alt="I took over the demonic ancestor poster"
+                                            class="img-fluid object-fit-cover mh-100 w-100"
+                                            style="object-position: center;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ranking-card col-12 col-md-6 col-lg-4">
+                                <div class="row">
+                                    <div class="col-1 p-2">
+                                        <h6 class="h6">1</h6>
+                                    </div>
+                                    <div class="col-5 p-2">
+                                        <h6 class="h6 text-capitalize">I took over the demonic ancestor
+                                        </h6>
+                                        <p class="fs-7">
+                                            229342 views
+                                        </p>
+                                    </div>
+                                    <div class="new-img col-6 ps-0">
+                                        <img src="./assets/homepage/new-series/i-took-over-the-demonic-ancestor.jpg"
+                                            alt="I took over the demonic ancestor poster"
+                                            class="img-fluid object-fit-cover mh-100 w-100"
+                                            style="object-position: center;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="schedule">
+                    <div class="sch-header d-flex flex-row pb-3">
+                        <h3 class="h3 me-auto">Schedule</h3>
+                        <div class="nav nav-underline">
+                            <a href="" class="nav-link active fs-6">
+                                My subscriptions
+                            </a>
+                            <span class="vr"></span>
+                            <a href="" class="nav-link fs-6">
+                                All updates
+                            </a>
+                            <span class="vr"></span>
+                            <a href="" class="nav-link fs-6">
+                                Filter genres
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sch-body d-flex flex-row pb-3">
+                        <div class="nav nav-underline">
+                            <a href="" class="nav-link active px-2">
+                                <span class="f-6">23/09</span>
+                                <span class="f-6">Thurs</span>
+                            </a>
+                            <a href="" class="nav-link px-2">
+                                <span class="f-6">24/09</span>
+                                <span class="f-6">Fri</span>
+                            </a>
+                            <a href="" class="nav-link px-2">
+                                <span class="f-6">25/09</span>
+                                <span class="f-6">Sat</span>
+                            </a>
+                            <a href="" class="nav-link px-2">
+                                <span class="f-6">26/09</span>
+                                <span class="f-6">Sun</span>
+                            </a>
+                            <a href="" class="nav-link px-2">
+                                <span class="f-6">23/09</span>
+                                <span class="f-6">Thurs</span>
+                            </a>
+                            <a href="" class="nav-link px-2">
+                                <span class="f-6">23/09</span>
+                                <span class="f-6">Thurs</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sch-listing d-flex flex-row flex-wrap">
+                        <div class="row">
+                            <div class="sch-card col-4 col-sm-3 col-md-2">
+                                <div class="p-card-img shadow mb-3 h-75">
+                                    <img src="./assets/explore/schedule/i- took-over-the-demonic-ancestor.jpg"
+                                        alt="I took over the demonic ancestor"
+                                        class="img-fluid object-fit-cover mh-100 w-100">
+                                </div>
+                                <div class="p-card-body h-25">
+                                    <a href="" class="prod-link py-1">
+                                        <h6 class="h6 text-capitalize text-center">
+                                            The legend of the northern blade
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sch-card col-4 col-sm-3 col-md-2">
+                                <div class="p-card-img shadow mb-3 h-75">
+                                    <img src="./assets/explore/schedule/i- took-over-the-demonic-ancestor.jpg"
+                                        alt="I took over the demonic ancestor"
+                                        class="img-fluid object-fit-cover mh-100 w-100">
+                                </div>
+                                <div class="p-card-body h-25">
+                                    <a href="" class="prod-link py-1">
+                                        <h6 class="h6 text-capitalize text-center">
+                                            The legend of the northern blade
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div><div class="sch-card col-4 col-sm-3 col-md-2">
+                                <div class="p-card-img shadow mb-3 h-75">
+                                    <img src="./assets/explore/schedule/i- took-over-the-demonic-ancestor.jpg"
+                                        alt="I took over the demonic ancestor"
+                                        class="img-fluid object-fit-cover mh-100 w-100">
+                                </div>
+                                <div class="p-card-body h-25">
+                                    <a href="" class="prod-link py-1">
+                                        <h6 class="h6 text-capitalize text-center">
+                                            The legend of the northern blade
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="https:// cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
