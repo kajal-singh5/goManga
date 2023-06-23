@@ -1,0 +1,552 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500&family=Poppins:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>GoManga</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid header-img" src="./icons/gomanga.svg" alt="Brand Logo">
+                    </a>
+                    <button class="navbar-toggler bg-transparent border border-0" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title h5" id="offcanvasNavbarLabel">
+                                <img class="img-fluid h-75" src="./icons/gomanga.svg" alt="Brand Logo">
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item pb-1">
+                                    <a class="nav-link active text-uppercase" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item pb-1">
+                                    <a class="nav-link text-uppercase" href="#">Explore</a>
+                                </li>
+                                <li class="nav-item pb-1">
+                                    <a class="nav-link text-uppercase" href="#">Forum</a>
+                                </li>
+                                <li class="nav-item pb-1">
+                                    <a class="nav-link text-uppercase" href="#">User</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex flex-column flex-lg-row mt-3 mt-lg-0" role="search">
+                                <input class="form-control mb-3 mb-lg-0 me-lg-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success" style="border-color: rgb(254, 127, 127);"
+                                    type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <section id="spotlight">
+                    <div class="container">
+                        <div class="d-flex flex-row justify-content-center align-items-md-center row mb-3">
+                            <div class="col-12 col-sm-6 order-sm-2">
+                                <img src="./assets/homepage/carousel/strongest-commoner.png" class="img-fluid object-fit-cover h-100"
+                                alt="Strongest commoner poster">
+                            </div>
+                            <div class="col-12 col-sm-6 order-sm-1">
+                                <p class="my-2">In spotlight</p>
+                                <hr class="border border-danger border-1 opacity-50 w-25 mt-0">
+                                <h1 class="display-5 lh-sm">The Strongest Commoner</h1>
+                                <p class="">In the era of immortal cultivators, spiritual energy and martial arts became
+                                    daily necessities for all people.“It’ll be fine as long as I’m around.” This is the
+                                    story of a prince with great potential within him and his journey to become a king.
+                                    Will
+                                    he be able to win over his inner demons ?</p>
+                                <a href="#" class="link" style="color:var(--accent-color);">Start Reading</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="new">
+                    <div class="container mb-5">
+                        <div class="d-flex flex-row justify-content-center align-items-center pb-3">
+                            <h3 class="h3 me-auto">New series</h3>
+                            <div class="nav nav-underline">
+                                <a href="" class="nav-link active fs-6">
+                                    Today
+                                </a>
+                                <span class="vr"></span>
+                                <a href="" class="nav-link fs-6">
+                                    Week
+                                </a>
+                                <span class="vr"></span>
+                                <a href="" class="nav-link fs-6">
+                                    Month
+                                </a>
+                            </div>
+                        </div>
+                        <div class="new-listing">
+                            <div class="row g-3">
+                                <div class="new-card col-12 col-md-6 col-lg-4">
+                                    <div class="row">
+                                        <div class="new-img col-6 ps-0">
+                                            <img src="./assets/homepage/new-series/i-took-over-the-demonic-ancestor.jpg"
+                                                alt="I took over the demonic ancestor poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: center;">
+                                        </div>
+                                        <div class="new-body col-6">
+                                            <h6 class="h6 text-capitalize pt-1">I took over the demonic ancestor
+                                            </h6>
+                                            <p class="fs-7 overflow-tooltip">
+                                                <span>Sci Fi</span>
+                                                <span class="vr"></span>
+                                                <span>Action</span>
+                                                <span class="vr"></span>
+                                                <span>Adventure</span>
+                                                <span class="vr"></span>
+                                                <span>Drama</span>
+                                                <span class="vr"></span>
+                                                <span>Fantasy</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="new-card col-12 col-md-6 col-lg-4">
+                                    <div class="row">
+                                        <div class="new-img col-6 ps-0">
+                                            <img src="./assets/homepage/new-series/beware-of-the-vicious-dog-inside.jpg"
+                                                alt="Beware of the vicious dog inside's poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="h6 text-capitalize pt-1">Beware of the vicious dog inside
+                                            </h6>
+                                            <p class="fs-7">
+                                                <span>Action</span>
+                                                <span class="vr"></span>
+                                                <span>Romance</span>
+                                                <span class="vr"></span>
+                                                <span>Fantasy</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="new-card col-12 col-md-6 col-lg-4">
+                                    <div class="row">
+                                        <div class="new-img col-6 ps-0">
+                                            <img src="./assets/homepage/new-series/the-return-of-emperor-ye-xuan.png"
+                                                alt="The return of Emperor Ye Xuan's poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="h6 text-capitalize pt-1">The return of Emperor Ye Xuan
+                                            </h6>
+                                            <p class="fs-7">
+                                                <span>Action</span>
+                                                <span class="vr"></span>
+                                                <span>Comedy</span>
+                                                <span class="vr"></span>
+                                                <span>Martial Arts</span>
+                                                <span class="vr"></span>
+                                                <span>Wuxia</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="new-card col-12 col-md-6 col-lg-4">
+                                    <div class="row">
+                                        <div class="new-img col-6 ps-0">
+                                            <img src="./assets/homepage/new-series/unmatched-powerhouse.jpg"
+                                                alt="Unmatched powerhouse poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 10%;">
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="h6 text-capitalize pt-1">Unmatched Powerhouse
+                                            </h6>
+                                            <p class="fs-7">
+                                                <span>Wuxia</span>
+                                                <span class="vr"></span>
+                                                <span>Action</span>
+                                                <span class="vr"></span>
+                                                <span>Isekai</span>
+                                                <span class="vr"></span>
+                                                <span>Fantasy</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="new-card col-12 col-md-6 col-lg-4">
+                                    <div class="row">
+                                        <div class="new-img col-6 ps-0">
+                                            <img src="./assets/homepage/new-series/my-cells-kingdom.jpg"
+                                                alt="My Cell's Kingdom poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="h6 text-capitalize pt-1">My Cell's Kingdom
+                                            </h6>
+                                            <p class="fs-7">
+                                                <span>Sci Fi</span>
+                                                <span class="vr"></span>
+                                                <span>Action</span>
+                                                <span class="vr"></span>
+                                                <span>Adventure</span>
+                                                <span class="vr"></span>
+                                                <span>Fantasy</span>
+                                                <span class="vr"></span>
+                                                <span>Adaptation</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="new-card col-12 col-md-6 col-lg-4">
+                                    <div class="row">
+                                        <div class="new-img col-6 ps-0">
+                                            <img src="./assets/homepage/new-series/it's-never-too-late-for-sweetness.jpg"
+                                                alt="Never too late for sweetness poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="h6 text-capitalize pt-1">It's never too late for sweetness
+                                            </h6>
+                                            <p class="fs-7">
+                                                <span>School Life</span>
+                                                <span class="vr"></span>
+                                                <span>Romance</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="recommended">
+                    <div class="container mb-5">
+                        <div class="d-flex flex-row pb-2">
+                            <h3 class="h3 me-auto">Recommended for you...</h3>
+                            <a href="#" class="link-secondary fs-6">Refresh</a>
+                        </div>
+                        <div class="rec-listing">
+                            <div class="row g-5 g-md-3">
+                                <div class="rec-card col-4 col-md-3 col-lg-2">
+                                    <div class="d-flex flex-column">
+                                        <div class="rec-img">
+                                            <a href="#">
+                                                <img src="./assets/homepage/comedy/brainless-witch.png"
+                                                    alt="Brainless Witch's poster"
+                                                    class="img-fluid object-fit-cover mh-100 w-100"
+                                                    style="object-position: 30% 20%;">
+                                            </a>
+                                        </div>
+                                        <div class="rec-body pt-2">
+                                            <p class="fs-7">
+                                                <a href="" class="link-secondary link-underline-opacity-0">
+                                                    + Add to list
+                                                </a>
+                                            </p>
+                                            <a href="" class="prod-link">
+                                                <h6 class="h6 text-capitalize">
+                                                    Brainless Witch
+                                                </h6>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rec-card col-4 col-md-3 col-lg-2">
+                                    <div class="d-flex flex-column">
+                                        <div class="rec-img">
+                                            <img src="./assets/homepage/comedy/praying-for-peace-this-world-has-been-dominated-by-the-real-boss.jpg"
+                                                alt="Praying for peace's poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="fs-7">
+                                                <a href="" class="link-secondary link-underline-opacity-0">
+                                                    + Add to list
+                                                </a>
+                                            </p>
+                                            <h6 class="h6 text-capitalize">
+                                                Praying for Peace
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rec-card col-4 col-md-3 col-lg-2">
+                                    <div class="d-flex flex-column">
+                                        <div class="rec-img">
+                                            <img src="./assets/homepage/fantasy/absolute-resonance.jpg"
+                                                alt="Absolute Resonance's poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="fs-7">
+                                                <a href="" class="link-secondary link-underline-opacity-0">
+                                                    + Add to list
+                                                </a>
+                                            </p>
+                                            <h6 class="h6 text-capitalize">
+                                                Absolute Resonance
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rec-card col-4 col-md-3 col-lg-2">
+                                    <div class="d-flex flex-column">
+                                        <div class="rec-img">
+                                            <img src="./assets/homepage/fantasy/tianbao-fuyao-lu.jpg"
+                                                alt="Tianbao Fuyao Lu's poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="fs-7">
+                                                <a href="" class="link-secondary link-underline-opacity-0">
+                                                    + Add to list
+                                                </a>
+                                            </p>
+                                            <h6 class="h6 text-capitalize">
+                                                Tianbao Fuyao Lu
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rec-card col-4 col-md-3 col-lg-2">
+                                    <div class="d-flex flex-column">
+                                        <div class="rec-img">
+                                            <img src="./assets/homepage/comedy/i-took-over-the-demonic-ancestor.jpg"
+                                                alt="Demonic ancestor's poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="fs-7">
+                                                <a href="" class="link-secondary link-underline-opacity-0">
+                                                    + Add to list
+                                                </a>
+                                            </p>
+                                            <h6 class="h6 text-capitalize">
+                                                I took over the Demonic ancestor
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rec-card col-4 col-md-3 col-lg-2">
+                                    <div class="d-flex flex-column">
+                                        <div class="rec-img">
+                                            <img src="./assets/homepage/comedy/the-cat-whisperer.png"
+                                                alt="The Cat whisperer's poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="fs-7">
+                                                <a href="" class="link-secondary link-underline-opacity-0">
+                                                    + Add to list
+                                                </a>
+                                            </p>
+                                            <h6 class="h6 text-capitalize">
+                                                The Cat Whisperer
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rec-card col-4 col-md-3 col-lg-2">
+                                    <div class="d-flex flex-column">
+                                        <div class="rec-img">
+                                            <img src="./assets/homepage/fantasy/gao-chang-and-rhubarb.png"
+                                                alt="Gao Chang and Rhubarb's poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="fs-7">
+                                                <a href="" class="link-secondary link-underline-opacity-0">
+                                                    + Add to list
+                                                </a>
+                                            </p>
+                                            <h6 class="h6 text-capitalize">
+                                                Gao Chang and Rhubarb
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rec-card col-4 col-md-3 col-lg-2">
+                                    <div class="d-flex flex-column">
+                                        <div class="rec-img">
+                                            <img src="./assets/homepage/comedy/target-100-million-points!-the-tltimate-game-to-start-a-2nd-life.jpg"
+                                                alt="Target 100 Million's poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="fs-7">
+                                                <a href="" class="link-secondary link-underline-opacity-0">
+                                                    + Add to list
+                                                </a>
+                                            </p>
+                                            <h6 class="h6 text-capitalize">
+                                                Target 100 Million Points
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rec-card col-4 col-md-3 col-lg-2">
+                                    <div class="d-flex flex-column">
+                                        <div class="rec-img">
+                                            <img src="./assets/homepage/fantasy/song-of-the-sky-pacers.png"
+                                                alt="Song of the Sky Pacer's poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="fs-7">
+                                                <a href="" class="link-secondary link-underline-opacity-0">
+                                                    + Add to list
+                                                </a>
+                                            </p>
+                                            <h6 class="h6 text-capitalize">
+                                                Song of the sky pacer's
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rec-card col-4 col-md-3 col-lg-2">
+                                    <div class="d-flex flex-column">
+                                        <div class="rec-img">
+                                            <img src="./assets/homepage/fantasy/a-record-of-a-mortal's-journey-to-immortality.jpg"
+                                                alt="Mortal's journey to Immortality's poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="fs-7">
+                                                <a href="" class="link-secondary link-underline-opacity-0">
+                                                    + Add to list
+                                                </a>
+                                            </p>
+                                            <h6 class="h6 text-capitalize">
+                                                Mortal's journey to Immortality
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rec-card col-4 col-md-3 col-lg-2">
+                                    <div class="d-flex flex-column">
+                                        <div class="rec-img">
+                                            <img src="./assets/homepage/comedy/falling-to-where-i-belong.jpg"
+                                                alt="Falling to where I belong poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="fs-7">
+                                                <a href="" class="link-secondary link-underline-opacity-0">
+                                                    + Add to list
+                                                </a>
+                                            </p>
+                                            <h6 class="h6 text-capitalize">
+                                                Falling to where I belong
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rec-card col-4 col-md-3 col-lg-2">
+                                    <div class="d-flex flex-column">
+                                        <div class="rec-img">
+                                            <img src="./assets/homepage/fantasy/top-tier-providence.jpg"
+                                                alt="Top tier providence poster"
+                                                class="img-fluid object-fit-cover mh-100 w-100"
+                                                style="object-position: 30% 20%;">
+                                        </div>
+                                        <div class="pt-2">
+                                            <p class="fs-7">
+                                                <a href="" class="link-secondary link-underline-opacity-0">
+                                                    + Add to list
+                                                </a>
+                                            </p>
+                                            <h6 class="h6 text-capitalize">
+                                                Top Tier Providence
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="footer container-fluid bg-light-subtle">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-sm-center">
+                    <div class="footer-logo py-2">
+                        <img src="./icons/gomanga.svg" alt="Brand logo" class="img-fluid footer-img">
+                    </div>
+                    <div class="footer-legal py-2">
+                        <p class="py-1">
+                            <a href="" class="text-uppercase link-secondary px-2">Terms</a>
+                            <span class="vr"></span>
+                            <a href="" class="text-uppercase link-secondary px-2">Privacy</a>
+                        </p>
+                        <p class="py-1">
+                            <a href="" class="text-uppercase link-secondary px-2">Report an issue</a>
+                            <span class="vr"></span>
+                            <a href="" class="text-uppercase link-secondary px-2">Contact us</a>
+                        </p>
+                    </div>
+                    <div class="footer-social py-2">
+                        <div class="d-flex flex-row">
+                            <div class="px-1"><img src="./icons/social/fb.svg" alt="facebook"></div>
+                            <div class="px-1"><img src="./icons/social/twt.svg" alt="twitter"></div>
+                            <div class="px-1"><img src="./icons/social/ig.svg" alt="instagram"></div>
+                            <div class="px-1"><img src="./icons/social/discord.svg" alt="discord"></div>
+                        </div>
+                    </div>
+                    <div class="footer-lang py-2">
+                        <div class="d-flex flex-row">
+                            <img src="./icons/translate.svg" alt="Change language" class="img-fluid px-2"
+                                style="color:rgb(254, 127, 127);">
+                            <p class="text-uppercase px-2">Eng</p>
+                        </div>
+                    </div>
+                    <div class="footer-display py-2">
+                        <div class="d-flex flex-row">
+                            <div class="px-1"><img src="./icons/display-mode/light.svg" alt="light-mode"></div>
+                            <div class="px-1"><img src="./icons/display-mode/night.svg" alt="night-mode"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+/* || Custom properties */
+:root {
+    --accent-color: #FE7F7F;
+    --primary-color: #707070;
+    --secondary-color: #B8B8B8;
+    --active: #FEFDFD;
+}
+
+/* || General styles */
+html {
+    font-family: 'Nunito', 'Poppins', sans-serif;
+    /* font-size: 16px; */
+    font-weight: 400;
+    color: var(--primary-color);
+    /* line-height: 16px; */
+}
+
+img {
+    max-width: 100%;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: inherit;
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+.fs-7 {
+    font-size: 0.85rem;
+}
+ 
+p {
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+
+.vr {
+    max-height: 1em;
+    align-self: center;
+
+}
+
+.hr {
+    border-color: var(--accent-color);
+}
+
+.container-fluid {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.fs-6 {
+    color: var(--secondary-color);
+}
+
+/* || Specific styles*/
+
+/* ||| Brand logo */
+img.header-img {
+    max-height: 2.5rem;
+}
+
+img.footer-img {
+    max-height: 3rem;
+}
+
+/* ||| Links */
+.link-secondary {
+    color: var(--secondary-color)!important;
+    text-decoration: none;
+}
+
+.prod-link {
+    color: var(--secondary-color)!important;
+    text-decoration: none;
+}
+
+.prod-link:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+
+/* ||| nav-links */
+.nav-underline {
+    --bs-nav-underline-gap: 0.5rem;
+}
+
+.nav-underline .nav-link.active,
+.nav-underline .show>.nav-link {
+    font-weight: 400;
+    color: var(--primary-color);
+    border-bottom-color: var(--accent-color);
+}
+
+.nav-underline .nav-link,
+.nav-underline .show>.nav-link {
+    color: var(--secondary-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+
+/* || By section */
+
+/* ||| New series */
+.new-listing .new-card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 4px 0px;
+    border-radius: 5px;
+    max-height: 6rem;
+    overflow: hidden;
+}
+
+@media (min-width: 576px) {
+    .new-listing .new-card {
+        max-height: 8rem;
+    }
+}
+
+.new-listing .new-card:hover,
+.new-listing .new-card:focus {
+    border: 1px solid var(--accent-color);
+}
+
+.new-listing .new-card:active {
+    background-color: var(--active);
+}
+
+/* ||| Recommended */
+.rec-listing .rec-card {
+    max-height: 15.25rem;
+    padding-left: calc(var(--bs-gutter-x) * 0.25);
+    padding-right: calc(var(--bs-gutter-x) * 0.25);
+}
+
+.rec-listing .rec-img {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 6px 6px 0px;
+}
+
+@media (min-width: 768px) {
+    .rec-listing .rec-card {
+        max-height: 18.125rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .rec-listing .rec-card {
+        max-height: 34.5rem;
+    }
+}
+
+/* ||| Explore */
+.p-card {
+    max-height: 17.375rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .p-card {
+        max-height: 20rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .p-card {
+        max-height: 24rem;
+    }
+}
+
+/* ||| Ranking */
+.ranking-listing .ranking-card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 4px 0px;
+    border-radius: 5px;
+    max-height: 6rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+    .ranking-listing .ranking-card {
+        max-height: 8rem;
+    }
+}
+
+.ranking-listing .ranking-card:hover,
+.ranking-listing .ranking-card:focus {
+    transform: scale(1.005);
+}
+
+.ranking-listing .ranking-card:active {
+    background-color: var(--active);
+}
+
+/* ||| Schedule */
+.sch-listing .sch-card {
+    max-height: 8.5rem;
+}
